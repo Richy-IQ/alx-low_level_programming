@@ -1,18 +1,25 @@
 #include <stdio.h>
- /**
-  * main - Entry point
+
+/**
+  * main - print hexadecimal
   *
   * Return: Always 0 (sucess)
   */
 int main(void)
 {
-	int d;
-	char low;
+	char a = 'a';
+	char n = '0';
 
-	for (d = '0'; d <= '9'; d++)
-		putchar(d);
-	for (low = 'a'; low <= 'f'; low++)
-		putchar(low);
+	while (n <= '9')
+	{
+		putchar(n);
+		n++;
+	}
+	while (a <= 'f')
+	{
+		putchar(a);
+		a++;
+	}
 	putchar('\n');
 	return (0);
 }
