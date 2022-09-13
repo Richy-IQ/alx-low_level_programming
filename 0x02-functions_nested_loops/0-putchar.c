@@ -2,5 +2,7 @@
 
 int main(void)
 {
-	putchar('_putchar\n');
-		return (0);
+	putchar('_putchar');
+	putchar('\n');
+	return (0);
+}
