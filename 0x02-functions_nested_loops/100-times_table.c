@@ -5,7 +5,7 @@
  *
  * Return: Always 0 (Success)
  */
-void print_times_table(int)
+void print_times_table(int n)
 {
-	return (0);
+	return (void);
 }
